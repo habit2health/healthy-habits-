@@ -1,0 +1,14 @@
+.items{
+    width: 80%;
+
+}
+.items ul {
+    list-style: none;
+    display: flex;
+    height: 40px;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: white;
+}

@@ -1,0 +1,88 @@
+@import url(nav2.css);
+@import url(nav1.css);
+@import url(signUp.css);
+* {
+    margin: 0;
+    padding: 0;
+}
+.mode{
+    background-image: url(https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fnphrgz8yfnjylrwfr0yl.png);
+}
+body {
+    background-color: #A2CA71;
+}
+.navs {
+    display: flex;
+    flex-direction: row;
+}
+.titleDiv {
+    text-align: center;
+    margin: 10px;
+}
+.title{
+    font-size: 80px;
+    color: #387F39;
+    font-family: 'Courier New';
+}
+.sign{
+    background: rgba(255, 255, 255, 0.199);
+    height: 500px;
+    width: 1000px;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 5px;
+    padding-top: 10px;
+}
+.reg {
+    font-size: xxx-large;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #00709cf3;
+    font-family: 'monospace';
+}
+.logs{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin-top: 40px;
+}
+.logs a {
+    text-decoration: none;
+    display: block;
+    color: azure;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    margin: auto;
+    border-radius: 12px;
+    font-size: x-large;
+    cursor: pointer;
+    font-weight: 700;
+    
+}
+#signUp:hover{
+    background-color: rgba(0, 128, 0, 0.5);
+    color: black;
+}
+#logIn:hover{
+    background-color: rgba(199, 0, 53, 0.5);
+    color: black;
+}
+#guest:hover{
+    background-color: rgba(12, 24, 68, 0.5);
+    color: black;
+}
+#signUp {
+    background: rgb(0, 128, 0);
+}
+#logIn{
+    background: rgb(199, 0, 53);
+}
+#guest {
+    background: rgb(12, 24, 68);
+}
+#guest, #logIn, #signUp {
+    transition: 0.5s;
+}

@@ -1,0 +1,124 @@
+.input {
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: #e8e8e8;
+  box-shadow: 20px 20px 60px #c5c5c5, -20px -20px 60px #ffffff;
+  transition: 0.3s;
+  width: 65%;
+}
+
+.input:focus {
+  outline-color: #e8e8e8;
+  background: #e8e8e8;
+  box-shadow: inset 20px 20px 60px #c5c5c5, inset -20px -20px 60px #ffffff;
+  transition: 0.3s;
+}
+.signUpBox {
+  background-color: #000;
+  height: 600px;
+  width: 1200px;
+  margin: auto;
+  border-radius: 15px;
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.199);
+}
+.signUpBoxTitle {
+  text-align: center;
+  font-size: xxx-large;
+  letter-spacing: 3px;
+  color: #00709cf3;
+  font-family: "monospace";
+}
+.signUpInfos{
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 90px;
+    text-align: center;
+    display: flex;
+}
+.signUpInfos input {
+    margin: auto;
+}
+#signUpSub {
+    background: rgb(53, 212, 21);
+    border: none;
+    border-radius: 12px;
+    height: 65px;
+    width: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: x-large;
+    font-weight: 900;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  #signUpSub i {
+    font-size: xxx-large;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #signUpSub:hover {
+    cursor: pointer;
+    background: rgb(137, 255, 114);
+    transition: 0.5s;
+  }
+#loginSub {
+    background: rgb(53, 212, 21);
+    border: none;
+    border-radius: 12px;
+    height: 65px;
+    width: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: x-large;
+    font-weight: 900;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  #loginSub i {
+    font-size: xxx-large;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #loginSub:hover {
+    cursor: pointer;
+    background: rgb(137, 255, 114);
+    transition: 0.5s;
+  }
+#xsub {
+    background:red;
+    border: none;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border-radius: 12px;
+    height: 65px;
+    width: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: x-large;
+    font-weight: 900;
+  }
+  #xsub i {
+    font-size: xxx-large;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #xsub:hover {
+    cursor: pointer;
+    background-color: rgba(199, 0, 53, 0.5);
+    transition: 0.5s;
+  }
